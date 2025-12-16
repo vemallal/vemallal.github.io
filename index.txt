@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Lasya Priya Vemalla | Portfolio</title>
+  <meta name="description" content="Personal portfolio website for Lasya Priya Vemalla: cybersecurity, projects, experience, and contact." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="logo" href="#top">Lasya</a>
+      <nav class="links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+    <div class="mobile" id="mobileMenu">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#leadership">Leadership</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container">
+        <p class="pill">Cybersecurity • Student • GVSU</p>
+        <h1>Lasya Priya Vemalla</h1>
+        <p class="sub">
+          Cybersecurity student at Grand Valley State University with hands-on experience in
+          tech support, campus involvement, and building projects in Python, web, and security.
+        </p>
+
+        <div class="cta">
+          <a class="btn" href="#projects">View Projects</a>
+          <a class="btn ghost" href="#contact">Contact</a>
+        </div>
+
+        <div class="quick">
+          <a href="https://www.linkedin.com/in/lasya-priya-vemalla-2422bb2a8" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/vemallal" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="mailto:lasyapriyav56@gmail.com">Email</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container grid2">
+        <div>
+          <h2>About Me</h2>
+          <p>
+            I’m a cybersecurity undergraduate at Grand Valley State University. I enjoy learning by building:
+            small tools in Python, security practice (CTFs), and clean, simple websites.
+          </p>
+          <p>
+            Outside of class, I work in campus roles that strengthen my communication and technical support skills,
+            and I’m involved in student organizations.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Quick Info</h3>
+          <ul class="list">
+            <li><span>Location:</span> Allendale, MI</li>
+            <li><span>Focus:</span> Cybersecurity / SOC / Forensics</li>
+            <li><span>Languages:</span> English, Telugu, Hindi, Nepali</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="chips">
+          <span class="chip">Python</span>
+          <span class="chip">C</span>
+          <span class="chip">Java</span>
+          <span class="chip">HTML</span>
+          <span class="chip">CSS</span>
+          <span class="chip">VS Code</span>
+          <span class="chip">RStudio</span>
+          <span class="chip">Microsoft Office</span>
+          <span class="chip">Google Workspace</span>
+          <span class="chip">Security Fundamentals</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <h2>Experience</h2>
+
+        <div class="timeline">
+          <div class="item">
+            <div class="dot"></div>
+            <div>
+              <h3>AV Tech — IT Department, GVSU <span class="muted">Aug 2024 – Present</span></h3>
+              <ul>
+                <li>Monitor and maintain audiovisual equipment for lectures and campus events.</li>
+                <li>Support faculty and staff with classroom technology setup and troubleshooting.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="dot"></div>
+            <div>
+              <h3>Involvement Assistant — Office of Student Life, GVSU <span class="muted">Aug 2024 – Present</span></h3>
+              <ul>
+                <li>Help coordinate student events to improve engagement and attendance.</li>
+                <li>Support communication between student organizations and campus partners.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="dot"></div>
+            <div>
+              <h3>International Student Orientation Leader — GVSU <span class="muted">Aug 2024</span></h3>
+              <ul>
+                <li>Helped new international students transition smoothly to campus life.</li>
+                <li>Supported cross-cultural orientation activities and student participation.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="projects" class="section alt">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="cards">
+
+          <article class="card">
+            <h3>Job Description Keyword Analyzer (Python)</h3>
+            <p>
+              Command-line tool that extracts frequently used keywords/skills from job descriptions and outputs a CSV.
+            </p>
+            <div class="cardlinks">
+              <a href="https://github.com/vemallal/job-description-keyword-analyzer" target="_blank" rel="noreferrer">Repo</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Collaborative Game Development (Python + Pygame)</h3>
+            <p>2D game with interactive mechanics and JSON-based map configuration.</p>
+          </article>
+
+          <article class="card">
+            <h3>Class Website Development (HTML/CSS)</h3>
+            <p>Basic informational website using GitHub for hosting and version control.</p>
+          </article>
+
+          <article class="card">
+            <h3>CTF Problem Solving (Hack The Box / TryHackMe)</h3>
+            <p>Hands-on practice with exploitation, privilege escalation, and web security concepts.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="leadership" class="section">
+      <div class="container">
+        <h2>Leadership & Involvement</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>Indian Student Association</h3>
+            <p>Social Media Manager (experience with Canva and campus promotion).</p>
+          </div>
+          <div class="card">
+            <h3>Women in Computing / Computing Club</h3>
+            <p>Community and learning through events and peer collaboration.</p>
+          </div>
+          <div class="card">
+            <h3>K-POP Dance Club / Bridges International</h3>
+            <p>Campus involvement and cross-cultural connections.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>If you want to connect about opportunities, projects, or cybersecurity—reach out:</p>
+        <div class="contact">
+          <a class="btn" href="mailto:lasyapriyav56@gmail.com">Email Me</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/lasya-priya-vemalla-2422bb2a8" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="btn ghost" href="https://github.com/vemallal" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© <span id="year"></span> Lasya Priya Vemalla</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
